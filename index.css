@@ -1,0 +1,151 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: 0;
+	background-image: url(img/texturaMadera.jpg);
+	background-attachment: fixed;
+	height: 100%;	
+}
+
+/* ============ HEADER ================*/
+
+header{
+	background-color: gray;
+	height: 100vh;
+}
+
+header div#welcome{
+	background-image: url(img/slide1.jpg);
+	background-size: cover;
+	background-position: center;
+	display: inline-flex;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+
+header div#welcome h1{
+	background-color: rgba(238, 242, 243, .7);
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 155px
+}
+
+    
+    /* ============== MAIN ================*/
+
+
+main div#menu{
+	background-color: gray;
+
+}
+
+main div#menu nav{
+	width: 60%;
+	margin: auto;	
+}
+main div#menu nav ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	list-style-type: none;
+
+}
+
+main div#menu nav ul li{
+	margin: 5px 20px;
+	padding: 0 10px;
+
+}
+
+main div#menu nav ul li a{
+	text-decoration-line: none;
+	font-size: 30px;
+	color: white;
+}
+
+main div h2{
+	background-color: rgba(238, 242, 243, .7);
+    width: 350px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 15px;
+    font-size: 50px;
+    box-shadow: inset 0 0 8px 0px #4e4e4e;
+
+}
+
+main div div.bloq{
+	display: inline-flex;;
+	margin: 10px;
+	padding: 10px;	
+}
+
+main div#bloque{
+	background-color: white;
+	text-align: justify;	
+}
+
+main div div.bloq div#im1 div#yo{	
+	width: 100%;
+}
+
+main div div.bloq div#im1 div#face a img{
+	width: 10%;
+}
+
+main div div.bloq div#texto p{
+	margin: 10px 20px;
+	text-align: justify;
+}
+/*===========================que hago=========*/
+
+main div#hago{
+	display: inline-flex;
+	justify-content: space-between;
+}
+
+main div#hago img.im2{
+	width: 33.33%;
+}
+
+/*=============== proyecto ==========*/
+
+main div#proy{
+	background-color: white;
+	display: inline-flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+
+}
+
+main div#proy div#marcos{
+	border:solid 1px black;
+	width: 15%;
+	margin: 10px 15px;
+	text-align: center;
+
+}
+
+main div#proy div#marcos p.contenido{
+	text-align: justify;
+	padding: 0 10px;
+}
+
+main div#proy div#marcos div img{
+	width: 60px;
+	height: 60px;	
+	border-radius: 50%;
+}
+
+
+a:hover{
+	background-color: black;
+	text-decoration-line: underline;
+
+}
